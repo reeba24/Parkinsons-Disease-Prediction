@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Parkinson's Disease Prediction</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Parkinson's Disease Prediction</h1>
+        </div>
+        <div class="form-container">
+            <h2>Fill out the form</h2>
+            <form action="/predict" method="post">
+                <input type="text" name="MDVP:Fo(Hz)" placeholder="MDVP:Fo(Hz) value" required="required" />
+                <input type="text" name="MDVP:Fhi(Hz)" placeholder="MDVP:Fhi(Hz) value" required="required" />
+                <input type="text" name="MDVP:Flo(Hz)" placeholder="MDVP:Flo(Hz) value" required="required" />
+                <input type="text" name="DFA" placeholder="DFA value" required="required" />
+                <input type="text" name="spread1" placeholder="spread1 value" required="required" />
+                <input type="text" name="spread2" placeholder="spread2 value" required="required" />
+                <input type="text" name="D2" placeholder="D2 value" required="required" />
+                <input type="submit" value="Predict">
+            </form>
+        </div>
+        {% if prediction %}
+            <div class="result">
+                <h2>Result: </h2>
+                <p>{{ prediction }}</p>
+            </div>
+        {% endif %}
+    </div>
+</body>
+</html>
