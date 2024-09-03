@@ -31,51 +31,57 @@ PPE-Pitch period entropy
 # Evaluation of the performance of ML Algorithms
 
 # Logistic Regression
-Accuracy	89.74
-Precision	88.89
-Recall	100.0
+Accuracy	89.74,
+Precision	88.89,
+Recall	100.0,
 F1-Score	94.12
+
 CONFUSION MATRIX
+
 ![image](https://github.com/user-attachments/assets/50c3bc08-f846-4633-a304-b07ea4f6a6c2)
 
 # SVM	
-Accuracy 89.74
- Precision 88.89
- Recall 100.0
+Accuracy 89.74,
+ Precision 88.89,
+ Recall 100.0,
  F1-Score 94.12
  
 CONFUSION MATRIX
+
  ![image](https://github.com/user-attachments/assets/62fb39a6-95e6-40af-9ca3-f67303b3dd44)
 
  
 # Decision Tree	
-Accuracy 97.44
-Precison 93.94
-Recall 96.88
+Accuracy 97.44,
+Precison 93.94,
+Recall 96.88,
 F1-Score 95.38
 
 CONFUSION MATRIX
 ![image](https://github.com/user-attachments/assets/89b26982-5ac5-47dc-8db4-6934fd868580)
 
 # Random Forest
-Accuracy 94.87
-Precision 94.12
-Recall 100.0	
+Accuracy 94.87,
+Precision 94.12,
+Recall 100.0,
 F1-Score 96.97
 
 CONFUSION MATRIX
+
 ![image](https://github.com/user-attachments/assets/a5654e89-3d05-4b02-b32d-b031dfa05805)
 
 # KNN
-Accuracy 94.87
-Precision	94.12
-Recall 100.0
+Accuracy 94.87,
+Precision	94.12,
+Recall 100.0,
 F1-Score 96.97
 
 CONFUSION MATRIX
+
 ![image](https://github.com/user-attachments/assets/359d5bef-8007-456f-ba60-4c8b8ac05a93)
 
 # Web Application
+
 ![image](https://github.com/user-attachments/assets/ab529259-dbe5-46c9-ae3f-e5e625b07a4e)
 
 # Result
