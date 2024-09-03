@@ -4,28 +4,28 @@ Parkinson's disease (PD) significantly impacts 60% of people over 50, posing cha
 
 # DATASET ATTRIBUTES
 
-MDVP:Fo(Hz)-Fundamental frequency (Hz)
-MDVP:Fhi(Hz)-Highest fundamental frequency (Hz)
-MDVP:Flo(Hz)-Lowest fundamental frequency (Hz)
-MDVP:Jitter(%)-Percentage of variation in the fundamental frequency
-MDVP:Jitter(Abs)-Absolute value of jitter
-MDVP:RAP-Relative average perturbation
-MDVP:PPQ-Measure frequency variation
-Jitter:DDP-Derivative of jitter measurement
-MDVP:Shimmer-Amplitude variation of the voice signal
-MDVP:Shimmer(dB)-Decibel level of shimmer
-Shimmer:APQ3-Amplitude perturbation quotient (first three instants)
-Shimmer:APQ5-Amplitude perturbation quotient ( first five instances)
-MDVP:APQ-Average perturbation quotient
-Shimmer:DDA-Discrete dynamic analysis of shimmer
-NH-	Noise-to-harmonics ratio
-HNR-Harmonics-to-noise ratio
-status-This indicates the presence of Parkinson’s
-RPDE-Recurrence period density entropy
-DFA*Detrended fluctuation analysis
-spread1-Dynamic complexity measure of the voice signal( Nonlinear) 
-spread2-Dynamic complexity measure of the voice signal( Nonlinear)
-D2 -Correlation dimension of the voice signal
+MDVP:Fo(Hz)-Fundamental frequency (Hz), 
+MDVP:Fhi(Hz)-Highest fundamental frequency (Hz), 
+MDVP:Flo(Hz)-Lowest fundamental frequency (Hz), 
+MDVP:Jitter(%)-Percentage of variation in the fundamental frequency, 
+MDVP:Jitter(Abs)-Absolute value of jitter, 
+MDVP:RAP-Relative average perturbation, 
+MDVP:PPQ-Measure frequency variation, 
+Jitter:DDP-Derivative of jitter measurement, 
+MDVP:Shimmer-Amplitude variation of the voice signal, 
+MDVP:Shimmer(dB)-Decibel level of shimmer, 
+Shimmer:APQ3-Amplitude perturbation quotient (first three instants), 
+Shimmer:APQ5-Amplitude perturbation quotient ( first five instances), 
+MDVP:APQ-Average perturbation quotient, 
+Shimmer:DDA-Discrete dynamic analysis of shimmer, 
+NH-	Noise-to-harmonics ratio, 
+HNR-Harmonics-to-noise ratio, 
+status-This indicates the presence of Parkinson’s, 
+RPDE-Recurrence period density entropy, 
+DFA*Detrended fluctuation analysis, 
+spread1-Dynamic complexity measure of the voice signal( Nonlinear), 
+spread2-Dynamic complexity measure of the voice signal( Nonlinear), 
+D2 -Correlation dimension of the voice signal, 
 PPE-Pitch period entropy
 
 # Evaluation of the performance of ML Algorithms
@@ -58,6 +58,7 @@ Recall 96.88,
 F1-Score 95.38
 
 CONFUSION MATRIX
+
 ![image](https://github.com/user-attachments/assets/89b26982-5ac5-47dc-8db4-6934fd868580)
 
 # Random Forest
