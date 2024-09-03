@@ -1,1 +1,3 @@
-# Parkinsons-Disease-Prediction
+# Parkinson’s Disease Prediction using ML Algorithms via Web Application
+
+Parkinson's disease (PD) significantly impacts 60% of people over 50, posing challenges due to its complexity, which complicates personalized treatment and monitoring. Early detection and intervention offer hope for those affected. As the global population ages, there is a growing need for innovative methods that enable early, accurate, and remote diagnosis of PD. This work explores the use of machine learning (ML) techniques in telemedicine to address this need. By leveraging ML models such as Support Vector Machine (SVM), Random Forest, K-Nearest Neighbors (KNN), and Logistic Regression, this project aims to improve the accuracy and effectiveness of Parkinson's disease diagnosis.
